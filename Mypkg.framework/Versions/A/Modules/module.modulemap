@@ -1,0 +1,8 @@
+framework module "Mypkg" {
+	header "ref.h"
+    header "Mypkg.objc.h"
+    header "Universe.objc.h"
+    header "Mypkg.h"
+
+    export *
+}
